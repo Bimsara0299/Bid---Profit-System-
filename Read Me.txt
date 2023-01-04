@@ -1,0 +1,45 @@
+Mini Project
+This project was done by using inetllij IDE
+Some functions of this project are not working due to our current knowledge of java programming.
+
+----------------------------------------------------------------------------------
+
+Working functions.
+	
+
+1.	Client-Server	:	
+Display the current highest bid
+
+a.	Ex: 	Command	: telnet localhost 2021
+		Command	: AAPL
+	Output		:[SERVER]	0.75
+---------------------------------------------
+			
+Accept bids
+
+b.	Ex:	Command	:telnet localhost 2021
+		Command	:AAPL 0.8
+	Output		:[SERVER]	0.8
+
+----------------------------------------------------------------------------------
+
+2.	Publisher-subscriber	:	
+Updating profit information
+
+a.	Ex:	Command	:telnet localhost 2022
+		Command	:AAPL 1954 9900
+	Output		:[SERVER]	0
+---------------------------------------------
+					
+Display profit information
+
+b.	Ex:	Command	:AAPL
+	Output		:[SERVER]	9900
+
+----------------------------------------------------------------------------------
+
+Functions that we could not implement
+
+1.	Client-Server	: 	Close bid after time out, java main 60 command
+2.	Publisher-Subscriber:	publish profit information after each update
+Publish bid updates
